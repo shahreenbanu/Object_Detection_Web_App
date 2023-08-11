@@ -1,0 +1,45 @@
+
+.heading
+{
+font-size: 53px;
+width: 100%;
+margin: 0px;
+background-color: blanchedalmond;
+margin-top: 20px;
+}
+
+#status
+{
+font-size: 30px;
+
+}
+#No._of_obj
+{
+font-size: 50px;
+
+}
+body {
+background-image: url("background.jpg");
+background-size: cover;
+}
+canvas {
+    margin-top: 190px;
+    background-color: white;
+    border-style: solid;
+    border-color: coral;
+    border-radius: 10px;
+    border-width: 4px;
+   
+    animation-name: glow;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow {
+    from {
+        box-shadow: 2px 2px 50px rgb(222, 115, 0);
+    }
+
+    to {
+        box-shadow: 2px 2px 50px rgba(255, 167, 36, 0.66)
+    }
+}
